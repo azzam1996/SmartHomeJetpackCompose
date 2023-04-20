@@ -1,0 +1,25 @@
+{
+  ConstraintSets: {
+    start: {
+      clSelected: {
+
+        height: 'spread',
+        start: ['parent', 'start'],
+      },
+    },
+    end: {
+      clSelected: {
+
+        height: 'spread',
+        end: ['parent', 'end'],
+      }
+    }
+  },
+  Transitions: {
+    default: {
+      from: 'start',
+      to: 'end',
+
+    }
+  }
+}
